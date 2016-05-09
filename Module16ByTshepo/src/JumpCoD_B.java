@@ -8,7 +8,7 @@
 //declearation of a class.
 public class JumpCoD_B
 {
-    //primitive data types and Encapsulation of variables
+   
     private String name;
     private int year;
     private String branch;

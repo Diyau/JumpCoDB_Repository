@@ -62,7 +62,7 @@ public class testJumpCo_DB extends GregorianCalendar//here i extends class testJ
                 case 1:  //System.out.println("Name " + "\t\t" + "Age");
                 for (int k= 0; k< count; k++)
                 {//start of for-loop
-                    int age = arrLearners[k].calcAge(2016);//statement which get and passes values into calcAge() method
+                    int age = arrLearners[k].calcAge();//statement which get and passes values into calcAge() method
                      
                     if (age < 26 )//if age <26 print the following
                     {//start of if
@@ -76,7 +76,7 @@ public class testJumpCo_DB extends GregorianCalendar//here i extends class testJ
                 case 2:
                 for (int k= 0; k< count; k++)
                 {//start of for-loop
-                    int age = arrLearners[k].calcAge(2016);//statement which get and passes values into calcAge() method
+                    int age = arrLearners[k].calcAge();//statement which get and passes values into calcAge() method
                     
                     if (age >= 26 )//if age >26 print the following
                     {//start of if

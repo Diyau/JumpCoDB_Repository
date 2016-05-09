@@ -22,9 +22,9 @@ public class JumpCoD_B
         
     }
     //Overloaeded method to calculate age and return age
-    public int calcAge(int currentYear)//Use of access modifiers,
+    public int calcAge()//Use of access modifiers,
     {
-        
+        int currentYear = 2016;
         int age = currentYear - year;
         return age;//return age
         
